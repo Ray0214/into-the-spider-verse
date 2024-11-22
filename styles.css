@@ -1,0 +1,146 @@
+body {
+    background-color: #660000;
+    background-image: url('images/dark_red_dots.png');
+    background-repeat: repeat-x;
+    background-size: 1000px;
+    color: #3281ff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header, h1, h2, h3 {
+    color: #df1f2d;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-shadow: 2px 2px #0062ff;
+}
+
+a {
+    color: #3281ff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover {
+    color: #df1f2d;
+}
+
+article {
+    text-align: justify;
+    max-width: 850px;
+    line-height: 125%;
+    flex: 2;
+    min-width: 300px;
+    background-color: azure;
+    padding: 10px 10px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moments {
+    background-color: azure;
+    padding: 10px 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.scenes, .image {
+    background-color: black;
+    padding: 4px 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+p, li {
+    font-size: larger;
+}
+
+aside, .text {
+    flex: 1;
+    min-width: 200px;
+    background-color: rgb(255, 248, 168);
+    color: black;
+    padding-left: 2px;
+    border: solid black 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+}
+  
+nav li {
+    margin-right: 20px;
+}
+
+.image1, .image2 {
+    flex-basis: 25%;
+    padding: 5px;
+}
+
+.scene-heading {
+    text-align: center;
+    justify-content: center;
+}
+
+.miles, .peter, .gwen, .noir, .peni, .ham {
+    display: flex;
+    margin: 5px;
+}
+
+.text, .image {
+    margin-left: 5px;
+}
+
+.characters {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sequel {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
